@@ -1,3 +1,9 @@
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'e', 'i'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'u', 'e', 'a', 'i'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'x', 'y'}
+ImmutableMultiDict([('phrase', 'nsahgiu'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'i', 'a', 'u'}
+ImmutableMultiDict([('phrase', 'nsahgiuddddksksa'), ('letters', 'dk')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'k', 'd'}
+ImmutableMultiDict([('phrase', 'ckofsswed'), ('letters', 'waeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'e', 'o', 'w'}
+ImmutableMultiDict([('phrase', 'wlkjhgfdaomkofsswed'), ('letters', 'wo')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'o', 'w'}
+ImmutableMultiDict([('phrase', 'wlkjhgfdaomkofsswed'), ('letters', 'wo')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'o', 'w'}
+ImmutableMultiDict([('phrase', 'xyz'), ('letters', 'zqw')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0|{'z'}
+ImmutableMultiDict([('phrase', 'me daughter'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0|{'e', 'a', 'u'}
+ImmutableMultiDict([('phrase', 'my bruser'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0|{'e', 'u'}
+ImmutableMultiDict([('phrase', 'my frand'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0|{'a'}
